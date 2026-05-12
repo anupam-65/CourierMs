@@ -26,7 +26,7 @@ Before running the application, ensure you have the following installed(can be f
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Ari-Ghosh/CourierMS.git
+   git clone https://github.com/Anupam-26/CourierMS.git
    ```
 
 2. Compile and run the application using your preferred IDE or command line.
