@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2fb3baf-b85f-42d8-8a90-210e953e7c75" name="Changes" comment="View Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/CustomerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/controller/CustomerFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/BillDetailsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/BillDetailsDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/CustomerDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/DeliveryDetailsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/DeliveryDetailsDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/MessageDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/MessageDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/ReturnDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/courierms/dao/custom/impl/ReturnDAOImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2XVybr8AY1sNSn9zhJCSBSrbxhq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/CODES/COLLEGE PROJECTS/CourierMS/lib/mysql-connector-j-8.1.0/mysql-connector-j-8.1.0.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.32413793",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODES\COLLEGE PROJECTS\CourierMS\src\main\resources\com\example\courierms\css" />
+      <recent name="D:\CODES\COLLEGE PROJECTS\CourierMS\src\main\resources\com\example\courierms\views" />
+      <recent name="D:\CODES\COLLEGE PROJECTS\CourierMS\src\main\resources\com\example\courierms" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.courierms" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppInitializer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.courierms.main.AppInitializer" />
+      <module name="CourierMS" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\CODES\COLLEGE PROJECTS\CourierMS\lib\javafx-sdk-21.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2fb3baf-b85f-42d8-8a90-210e953e7c75" name="Changes" comment="" />
+      <created>1698728618897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698728618897</updated>
+      <workItem from="1699775738898" duration="590000" />
+    </task>
+    <task id="LOCAL-00001" summary="View Changes">
+      <option name="closed" value="true" />
+      <created>1699687854158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699687854158</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Project Initialization" />
+    <MESSAGE value="View Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="View Changes" />
+  </component>
+</project>

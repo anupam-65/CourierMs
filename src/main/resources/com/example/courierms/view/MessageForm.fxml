@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="640.0" prefWidth="1241.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courierms.controller.MessageFormController">
+   <children>
+      <TextField fx:id="txtMsgId" layoutX="27.0" layoutY="44.0" prefHeight="26.0" prefWidth="105.0" />
+      <TextArea fx:id="txtMessageBox" layoutX="27.0" layoutY="93.0" prefHeight="171.0" prefWidth="726.0" wrapText="true" />
+      <TableView fx:id="tblMessage" layoutX="27.0" layoutY="283.0" onMouseClicked="#rowClickOnAction" prefHeight="330.0" prefWidth="1186.0">
+        <columns>
+          <TableColumn fx:id="colMsgId" prefWidth="122.39999008178711" text="MSGID" />
+          <TableColumn fx:id="colMessage" prefWidth="1063.200003051758" text="MESSAGE" />
+        </columns>
+      </TableView>
+      <Button layoutX="780.0" layoutY="232.0" onAction="#btnMsgPost" prefHeight="32.0" prefWidth="122.0" style="-fx-background-color: #0088ff; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="POST" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1241.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courierms.controller.CustomerFormController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Customer Form">
+         <font>
+            <Font name="SansSerif Bold" size="18.0" />
+         </font>
+      </Label>
+      <Pane fx:id="txtF" layoutX="14.0" layoutY="43.0" prefHeight="167.0" prefWidth="1210.0">
+         <children>
+            <Button layoutX="663.0" layoutY="37.0" onAction="#saveOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #00ff7f; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Save" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="663.0" layoutY="79.0" onAction="#updateOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #0088ff;-fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Update" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="663.0" layoutY="122.0" onAction="#deleteOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #fccf03; -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtCID" style="-fx-focus-color: springgreen;" layoutX="29.0" layoutY="19.0" onAction="#cidOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Customer ID" />
+            <TextField fx:id="txtFirstName" style="-fx-focus-color: springgreen;" layoutX="29.0" layoutY="69.0" onAction="#fNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="FirstName" />
+            <TextField fx:id="txtSecondName" style="-fx-focus-color: springgreen;" layoutX="29.0" layoutY="129.0" onAction="#sNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Second Name" />
+            <TextField fx:id="txtTelephoneNo" style="-fx-focus-color: springgreen;" layoutX="328.0" layoutY="19.0" onAction="#tpOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Telephone No" />
+            <TextField fx:id="txtAddress" style="-fx-focus-color: springgreen;" layoutX="328.0" layoutY="71.0" onAction="#addressOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Address" />
+            <TextField fx:id="txtEmail" style="-fx-focus-color: springgreen;" layoutX="328.0" layoutY="129.0" prefHeight="22.0" prefWidth="268.0" promptText="Email" />
+            <Button layoutX="1122.0" layoutY="19.0" mnemonicParsing="false" onAction="#printOnAction" prefHeight="25.0" prefWidth="73.0" text="Print" />
+         </children>
+      </Pane>
+      <Pane layoutX="14.0" layoutY="230.0" prefHeight="390.0" prefWidth="1210.0">
+         <children>
+            <TableView fx:id="tblCustomer" layoutX="24.0" layoutY="15.0" onMouseClicked="#rowSelectOnAction" prefHeight="361.0" prefWidth="1158.0">
+              <columns>
+                <TableColumn fx:id="colCID" prefWidth="99.19997787475586" text="CID" />
+                <TableColumn fx:id="colFName" prefWidth="206.40003967285156" text="First Name" />
+                  <TableColumn fx:id="colLName" minWidth="0.0" prefWidth="201.5999755859375" text="Last Name" />
+                  <TableColumn fx:id="colTP" prefWidth="186.4000244140625" text="Telephone NO" />
+                  <TableColumn fx:id="colAddress" prefWidth="227.20001220703125" text="Address" />
+                  <TableColumn fx:id="colEmail" prefWidth="234.0" text="Email" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

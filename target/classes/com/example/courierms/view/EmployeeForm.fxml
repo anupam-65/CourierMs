@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="640.0" prefWidth="1241.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courierms.controller.EmployeeFormController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Empolyee Form">
+         <font>
+            <Font name="SansSerif Bold" size="18.0" />
+         </font>
+      </Label>
+      <Pane layoutX="24.0" layoutY="42.0" prefHeight="167.0" prefWidth="1210.0">
+         <children>
+            <Button layoutX="653.0" layoutY="35.0" onAction="#saveOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #00ff7f;  -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Save" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="653.0" layoutY="77.0" onAction="#updateOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #0088ff;  -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Update" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="653.0" layoutY="120.0" onAction="#deleteOnAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #fccf03;  -fx-effect: innershadow(gaussian, #00ff7f, 5, 0, 0, 0);" text="Remove" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtEID" style="-fx-focus-color: springgreen;" layoutX="18.0" layoutY="19.0" onAction="#eidOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Customer ID" />
+            <TextField fx:id="txtFirstName" style="-fx-focus-color: springgreen;" layoutX="18.0" layoutY="69.0" onAction="#fNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="FirstName" />
+            <TextField fx:id="txtSecondName" style="-fx-focus-color: springgreen;" layoutX="18.0" layoutY="129.0" onAction="#sNameOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Second Name" />
+            <TextField fx:id="txtTelephoneNo" style="-fx-focus-color: springgreen;" layoutX="317.0" layoutY="19.0" onAction="#tpOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Telphone No" />
+            <TextField fx:id="txtAddress" style="-fx-focus-color: springgreen;" layoutX="317.0" layoutY="71.0" onAction="#addressOnAction" prefHeight="22.0" prefWidth="268.0" promptText="Address" />
+            <TextField fx:id="txtEmail" style="-fx-focus-color: springgreen;" layoutX="317.0" layoutY="129.0" prefHeight="22.0" prefWidth="268.0" promptText="Email" />
+         </children>
+      </Pane>
+      <Pane layoutX="24.0" layoutY="240.0" prefHeight="390.0" prefWidth="1210.0">
+         <children>
+            <TableView fx:id="tblEmp" layoutX="15.0" layoutY="14.0" onMouseClicked="#rowOnAction" prefHeight="354.0" prefWidth="1166.0">
+              <columns>
+                <TableColumn fx:id="colEID" prefWidth="94.39995956420898" text="EID" />
+                <TableColumn fx:id="colFName" prefWidth="164.0000762939453" text="FIRST NAME" />
+                  <TableColumn fx:id="colSName" prefWidth="165.59991455078125" text="SECOND NAME" />
+                  <TableColumn fx:id="colTP" prefWidth="164.800048828125" text="TELEPHONE NO" />
+                  <TableColumn fx:id="colAddress" prefWidth="312.79998779296875" text="ADDRESS" />
+                  <TableColumn fx:id="colEmail" prefWidth="249.60009765625" text="EMAIL" />
+              </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
